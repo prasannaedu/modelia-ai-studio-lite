@@ -1,0 +1,12 @@
+node_modules
+dist
+.DS_Store
+.vite
+.eslintcache
+playwright-report
+test-results
+coverage
+node_modules/
+dist/
+build/
+.env

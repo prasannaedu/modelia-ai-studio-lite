@@ -1,0 +1,15 @@
+{
+  "name": "Modelia \u2014 AI Studio Lite",
+  "short_name": "Modelia",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
