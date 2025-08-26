@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './ui/App'
 import './styles.css'
+import { ErrorBoundary } from './ui/ErrorBoundary'
 
 // Register basic service worker for PWA bonus
 if ('serviceWorker' in navigator) {
@@ -12,6 +13,8 @@ if ('serviceWorker' in navigator) {
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <ErrorBoundary>
+      <App />
+    </ErrorBoundary>
   </React.StrictMode>
 )
